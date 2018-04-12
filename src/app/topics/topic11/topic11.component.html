@@ -1,0 +1,38 @@
+<div>
+    <h1 class="display-4 ionic-title">
+        Ionic is a front-end framework for mobile apps
+    </h1>
+    <ul class="lead ionic-large-text ionic-list-large">
+
+        <li>
+            Uses known languages and tools (HTML, CSS, Angular)
+        </li>
+
+        <li>
+            It gives you the tooling for creating <a href="#" (click)="lgModal.show()">cross platform</a> mobile applications based on the Apache Cordova standards.
+        </li>
+
+        <li>
+            It will compile your Angular Typescript code into native Javascript within the Apache Cordova requirements.
+        </li>
+
+        <li>
+            It provides you with a bunch of pre-build "native style"  <a target="_blank" href="https://ionicframework.com/docs/components/#menus">components</a>
+        </li>
+    </ul>
+    <div bsModal #lgModal="bs-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title pull-left">Native app comparison</h4>
+                    <button type="button" class="close pull-right" (click)="lgModal.hide()" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="../../../assets/phonecompare.png" class="ionic-phone-compare">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

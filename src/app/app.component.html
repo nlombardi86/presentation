@@ -1,0 +1,37 @@
+<!-- Header -->
+<header-component></header-component>
+
+<!-- Main -->
+<div class="ionic-template" [ngClass]="{'ionic-template-angular': topic === 'Angular', 'ionic-template-ion': topic === 'What is Ionic', 'ionic-template-ion-infra ': topic === 'Framework Architecture'}">
+    <div class="container ionic-main">
+        <navigation-component (setTopic)="setTopic($event)"></navigation-component>
+        <div>
+            <!--*ngIf="!topic"-->
+            <img src="../assets/ioniclogo2.png" class="ionic-logo" *ngIf="!topic">
+            <app-topic10 *ngIf="topic === 'Angular'"></app-topic10>
+            <topic11-component *ngIf="topic === 'What is Ionic'"></topic11-component>
+            <app-topic12 *ngIf="topic === 'Framework Architecture'"></app-topic12>
+            <app-topic13 *ngIf="topic === 'Benefits'"></app-topic13>
+            <app-topic14 *ngIf="topic === 'Enviroment setup'"></app-topic14>
+            <app-topic21 *ngIf="topic === 'Getting started'"></app-topic21>
+            <app-topic22 *ngIf="topic === 'MyApp'"></app-topic22>
+            <app-topic31 *ngIf="topic === 'Demo 2'"></app-topic31>
+            <app-topic32 *ngIf="topic === 'Demo 3'"></app-topic32>
+            <app-topic33 *ngIf="topic === 'Demo 4'"></app-topic33>
+            <app-topic34 *ngIf="topic === 'Hands on'"></app-topic34>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<div class="container ionic-footer">
+    <span class="lead ionic-footer-text">Thomas Lodewijk</span>
+    <span class="lead ionic-footer-text">|</span>
+    <span class="lead ionic-footer-text">Nicola Lombardi</span>
+    <span class="lead ionic-footer-text">|</span>
+    <span class="lead ionic-footer-text">12 - 4 - 2018</span>
+</div>
+
+
+
+

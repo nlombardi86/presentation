@@ -1,0 +1,133 @@
+<div>
+    <h1 class="display-4 ionic-title">
+        Angular is a JavaScript Framework which allows you to create reactive Single-Page-Applications (SPAs)
+    </h1>
+    <ul class="lead ionic-large-text ionic-list-large">
+        <li>
+             It is based on <a href="#" (click)="TSModal.show()">Typescript</a>
+        </li>
+
+        <li>
+            It uses 1 HTML file
+        </li>
+
+        <li>
+            Javascript changes the html code at runtime using the <a href="#" (click)="DOMModal.show()">DOM</a>
+        </li>
+
+        <li>
+            An <a href="#"(click)="angularModal.show()">Angular</a> <a href="#"(click)="webappModal.show()">WebbApp</a> is build on <a href="#"(click)="componentModal.show()">components</a> & <a href="#"(click)="servicesModal.show()">services</a>
+        </li>
+    </ul>
+    <div bsModal #lgModal="bs-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title pull-left">Native app comparison</h4>
+                    <button type="button" class="close pull-right" (click)="lgModal.hide()" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="../../../assets/phonecompare.png" class="ionic-phone-compare">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div bsModal #TSModal="bs-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title pull-left">Typescript anatomy</h4>
+                    <button type="button" class="close pull-right" (click)="TSModal.hide()" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="../../../assets/typescript.png" >
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div bsModal #DOMModal="bs-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title pull-left">DOM structure</h4>
+                    <button type="button" class="close pull-right" (click)="DOMModal.hide()" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="../../../assets/DOM.png" >
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div bsModal #webappModal="bs-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title pull-left">Webapp structure</h4>
+                    <button type="button" class="close pull-right" (click)="webappModal.hide()" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="../../../assets/Sample_angular_app.PNG" >
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div bsModal #componentModal="bs-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title pull-left">Component structure</h4>
+                    <button type="button" class="close pull-right" (click)="componentModal.hide()" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="../../../assets/Component_architecture.PNG" >
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div bsModal #servicesModal="bs-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title pull-left">Angular services</h4>
+                    <button type="button" class="close pull-right" (click)="servicesModal.hide()" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="../../../assets/Services.PNG" >
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div bsModal #angularModal="bs-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title pull-left">Angular services</h4>
+                    <button type="button" class="close pull-right" (click)="angularModal.hide()" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="../../../assets/angular.png" >
+                </div>
+            </div>
+        </div>
+    </div>

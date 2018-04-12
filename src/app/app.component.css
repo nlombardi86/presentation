@@ -1,0 +1,94 @@
+.ordina-text {
+    color: #585858;
+}
+.ionic-title {
+    font-size: 2.5rem;
+    color: #585858;
+}
+.ionic-list-small, .ionic-list-large {
+    font-size: 1.75rem;
+    padding-left: 100px;
+}
+.ionic-list-small li {
+    padding-top: 10px;
+}
+.ionic-list-large li {
+    padding-top: 30px;
+}
+.ionic-large-text {
+    font-size: 1.75rem;
+}
+.ionic-footer {
+    border-top: 1px solid lightgray;
+    padding-left: 0;
+}
+.ionic-footer-text {
+    font-size: 1rem;
+    color: #585858;
+    padding-right: 40px;
+}
+.ionic-app-frame {
+    margin-right: 100px;
+    background-image: url("../assets/phoneframe.png");
+    background-size: 430px 670px;
+    padding-bottom: 10px;
+}
+.ionic-app-sample {
+    margin-left: 30px;
+    margin-top: 71px;
+    margin-bottom: 90px;
+}
+.ionic-codeblock {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    background-color: white;
+    margin-top: 20px;
+    padding-top: 15px;
+    font-size: 1.25rem;
+}
+.ionic-template {
+    background-image: url("../assets/back6.jpg");
+    background-position-y: bottom;
+    height: 920px;
+}
+
+.ionic-template-angular {
+    background-image: url("../assets/angular2.jpg");
+    background-position-y: bottom;
+    height: 920px;
+}
+
+.ionic-template-ion {
+    background-image: url("../assets/ionic_back.png");
+    background-position-y: bottom;
+    height: 920px;
+}
+
+.ionic-template-ion-infra {
+    background-image: none;
+    background-position-y: bottom;
+    height: 920px;
+}
+
+
+
+.ionic-logo {
+    display: block;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+.ionic-phone-compare {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 660px;
+    background-color: white;
+    /*float: right;*/
+
+}
+
+
+
+
